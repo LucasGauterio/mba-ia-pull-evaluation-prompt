@@ -46,7 +46,6 @@ class TestPrompts:
         assert has_markdown, "O prompt deve exigir formatação Markdown."
         assert has_us_template, "O prompt deve exigir a estrutura padrão de User Story (Como um..., Eu quero..., Para que...)."
 
-    @pytest.mark.skip(reason="Fase incremental: Few-shot será adicionado no próximo commit")
     def test_prompt_has_few_shot_examples(self, prompt_data):
         """Verifica se o prompt contém exemplos de entrada/saída (técnica Few-shot)."""
         system_prompt = prompt_data.get("system_prompt", "")
@@ -63,7 +62,6 @@ class TestPrompts:
         assert not todo_pattern.search(system_prompt), "Há marcações de TODO no 'system_prompt'."
         assert not todo_pattern.search(user_prompt), "Há marcações de TODO no 'user_prompt'."
 
-    @pytest.mark.skip(reason="Fase incremental: Mínimo de 2 técnicas será atingido posteriormente")
     def test_minimum_techniques(self, prompt_data):
         """Verifica (através dos metadados do yaml) se pelo menos 2 técnicas foram listadas."""
         techniques = prompt_data.get("techniques_applied", [])

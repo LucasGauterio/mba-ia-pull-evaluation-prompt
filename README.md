@@ -100,38 +100,47 @@ Certifique-se de ter feito push dos prompts antes de avaliar:
    Puxando prompt do LangSmith Hub: lucasgauterio/bug_to_user_story_v2
    ✓ Prompt carregado com sucesso
    Dataset: 15 exemplos
+G:\Projects\mba-ia-pull-evaluation-prompt\venv\Lib\site-packages\langchain_google_genai\chat_models.py:47: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  from google.generativeai.caching import CachedContent  # type: ignore[import]
    Avaliando exemplos...
-      [1/15] F1:0.90 Clarity:0.88 Precision:0.98
-      [2/15] F1:0.87 Clarity:0.90 Precision:1.00
-      [3/15] F1:0.91 Clarity:0.89 Precision:0.97
-      [4/15] F1:0.90 Clarity:0.95 Precision:0.97
+      [1/15] F1:0.89 Clarity:0.88 Precision:0.98
+      [2/15] F1:0.92 Clarity:0.95 Precision:0.97
+      [3/15] F1:0.91 Clarity:0.95 Precision:1.00
+      [4/15] F1:0.96 Clarity:0.98 Precision:0.97
       [5/15] F1:0.97 Clarity:0.90 Precision:0.93
-      [6/15] F1:1.00 Clarity:0.90 Precision:0.97
-      [7/15] F1:1.00 Clarity:0.98 Precision:0.98
-      [8/15] F1:1.00 Clarity:0.93 Precision:1.00
-      [9/15] F1:0.92 Clarity:0.98 Precision:0.95
-      [10/15] F1:1.00 Clarity:0.97 Precision:1.00
-      [11/15] F1:1.00 Clarity:0.93 Precision:1.00
-      [12/15] F1:0.91 Clarity:0.90 Precision:0.97
-      [13/15] F1:0.83 Clarity:1.00 Precision:1.00
+      [6/15] F1:0.92 Clarity:0.93 Precision:1.00
+      [7/15] F1:1.00 Clarity:0.98 Precision:1.00
+      [8/15] F1:1.00 Clarity:0.98 Precision:1.00
+      [9/15] F1:0.91 Clarity:0.98 Precision:0.95
+      [10/15] F1:1.00 Clarity:0.93 Precision:1.00
+      [11/15] F1:1.00 Clarity:0.98 Precision:1.00
+      [12/15] F1:0.87 Clarity:0.95 Precision:0.97
+      [13/15] F1:1.00 Clarity:0.95 Precision:1.00
       [14/15] F1:1.00 Clarity:0.97 Precision:1.00
-      [15/15] F1:1.00 Clarity:0.98 Precision:1.00
+      [15/15] F1:0.99 Clarity:0.93 Precision:1.00
 
 ==================================================
 Prompt: lucasgauterio/bug_to_user_story_v2
 ==================================================
 
 Métricas Derivadas:
-  - Helpfulness: 0.96 ✓
-  - Correctness: 0.96 ✓
+  - Helpfulness: 0.97 ✓
+  - Correctness: 0.97 ✓
 
 Métricas Base:
-  - F1-Score: 0.95 ✓
-  - Clarity: 0.94 ✓
+  - F1-Score: 0.96 ✓
+  - Clarity: 0.95 ✓
   - Precision: 0.98 ✓
 
 --------------------------------------------------
-📊 MÉDIA GERAL: 0.9581
+📊 MÉDIA GERAL: 0.9656
 --------------------------------------------------
 
 ✅ STATUS: APROVADO - Todas as métricas >= 0.8
@@ -145,9 +154,6 @@ Aprovados: 1
 Reprovados: 0
 
 ✅ Todos os prompts atingiram todas as métricas >= 0.8!
-
-✓ Confira os resultados em:
-  https://smith.langchain.com/projects/optimization-challenge-lucas-gauterio
 ```
 
 ---

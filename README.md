@@ -228,21 +228,21 @@ Abaixo estão apresentadas as evidências visuais de execução e avaliação do
 
 ### 1. Trilha de Execução (RunnableSequence)
 A execução geral do pipeline de análise de relatos de bugs e geração de User Stories está mapeada sob o nó `RunnableSequence`, garantindo a modularidade das chamadas.
-![Trace do RunnableSequence](screenshots/langsmith_runnable_sequence_3.jpeg)
+![Trace do RunnableSequence](screenshots/bug_13_runnable_sequence.jpeg)
 
 ### 2. Formatação de Prompts (ChatPromptTemplate)
 O preenchimento dinâmico do `system_prompt` otimizado com as variáveis do relato do bug e o histórico contextual de suporte.
-![Prompt Template input e output](screenshots/langsmith_prompt_template_2.jpeg)
+![Prompt Template input e output](screenshots/bug_11_prompt_template.jpeg)
 
 ### 3. Execução do LLM (ChatGoogleGenerativeAI)
 A chamada ao modelo principal `gemini-2.5-flash` contendo as saídas geradas e o consumo de tokens correspondente.
-![Execução do Modelo LLM](screenshots/langsmith_llm_execution_1.jpeg)
+![Execução do Modelo LLM](screenshots/bug_13_llm_execution_1.jpeg)
 
 ### 4. Avaliadores de Métricas (Evaluators)
 Evidências das chamadas aos avaliadores específicos do LangSmith para validar a qualidade do conteúdo gerado:
 - **Clarity Evaluator:** Execução da IA avaliadora especializada em medir a clareza e a estrutura de mensagens das User Stories.
-  ![Avaliador de Clareza](screenshots/langsmith_evaluator_clarity.jpeg)
+  ![Avaliador de Clareza](screenshots/bug_11_evaluator_clarity.jpeg)
 - **Precision Evaluator:** Execução da IA avaliadora especializada em validar a precisão e a ausência de alucinações.
-  ![Avaliador de Precisão](screenshots/langsmith_evaluator_precision.jpeg)
+  ![Avaliador de Precisão](screenshots/bug_11_evaluator_precision.jpeg)
 - **F1 Score Evaluator:** Execução da IA avaliadora do F1 Score semântico.
-  ![Avaliador de F1-Score](screenshots/langsmith_evaluator_f1_score.jpeg)
+  ![Avaliador de F1-Score](screenshots/bug_6_evaluator_f1_score.jpeg)

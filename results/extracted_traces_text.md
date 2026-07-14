@@ -2,7 +2,7 @@
 
 Este documento contém o texto extraído diretamente das capturas de tela das execuções no LangSmith.
 
-## Imagem: langsmith_evaluator_clarity.jpeg
+## Imagem: bug_11_evaluator_clarity.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -180,7 +180,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_evaluator_f1_score.jpeg
+## Imagem: bug_6_evaluator_f1_score.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -291,7 +291,7 @@ Aqui está a transcrição estruturada e completa do texto visível na imagem do
 
 ---
 
-## Imagem: langsmith_evaluator_precision.jpeg
+## Imagem: bug_11_evaluator_precision.jpeg
 
 Aqui está a transcrição estruturada e completa das informações visíveis na imagem do LangSmith:
 
@@ -495,7 +495,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_llm_execution_1.jpeg
+## Imagem: bug_13_llm_execution_1.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -726,7 +726,7 @@ Como um usuário do sistema de checkout, eu quero ter um processo de compra segu
 
 ---
 
-## Imagem: langsmith_llm_execution_2.jpeg
+## Imagem: bug_6_llm_execution_1.jpeg
 
 Aqui está uma transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português.
 
@@ -874,7 +874,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_llm_execution_3.jpeg
+## Imagem: bug_6_llm_execution_2.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith:
 
@@ -1028,7 +1028,7 @@ A resposta é extremamente clara e bem organizada, utilizando uma estrutura lóg
 
 ---
 
-## Imagem: langsmith_llm_execution_4.jpeg
+## Imagem: bug_15_llm_execution_1.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -1464,7 +1464,7 @@ A resposta da IA identifica e aborda corretamente todos os problemas, fornecendo
 
 ---
 
-## Imagem: langsmith_llm_execution_5.jpeg
+## Imagem: bug_15_llm_execution_2.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português.
 
@@ -1881,7 +1881,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_llm_execution_6.jpeg
+## Imagem: bug_15_llm_execution_3.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos em português:
 
@@ -2155,7 +2155,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_llm_execution_7.jpeg
+## Imagem: bug_11_llm_execution_1.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -2318,7 +2318,7 @@ Como um cliente, eu quero que o sistema valide a disponibilidade do estoque no c
 
 ---
 
-## Imagem: langsmith_llm_execution_8.jpeg
+## Imagem: bug_11_llm_execution_2.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -2488,7 +2488,7 @@ NÃO adicione nenhum texto antes ou depois do JSON.
 
 ---
 
-## Imagem: langsmith_prompt_template_1.jpeg
+## Imagem: bug_6_prompt_template.jpeg
 
 Aqui está a transcrição estruturada e completa das informações visíveis na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 
@@ -2581,7 +2581,7 @@ ChatPromptTemplate
 
 ---
 
-## Imagem: langsmith_prompt_template_2.jpeg
+## Imagem: bug_11_prompt_template.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos em português:
 
@@ -2681,7 +2681,7 @@ Aqui está a transcrição estruturada e completa do texto visível na imagem do
 
 ---
 
-## Imagem: langsmith_runnable_sequence_1.jpeg
+## Imagem: bug_11_runnable_sequence.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos em português:
 
@@ -2805,7 +2805,7 @@ O sistema não realiza validações de estoque em tempo real ou transacionais su
 
 ---
 
-## Imagem: langsmith_runnable_sequence_2.jpeg
+## Imagem: bug_6_runnable_sequence.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos em português:
 
@@ -2905,7 +2905,7 @@ Como o sistema de processamento de pedidos, eu quero receber e processar correta
 
 ---
 
-## Imagem: langsmith_runnable_sequence_3.jpeg
+## Imagem: bug_13_runnable_sequence.jpeg
 
 Aqui está a transcrição estruturada e completa do texto visível na imagem do LangSmith, organizada com cabeçalhos apropriados em português:
 

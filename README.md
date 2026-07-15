@@ -17,7 +17,7 @@ Repositório com o fluxo completo de ingestão (pull), otimização incremental,
 ## Navegação Rápida
 
 - [Prompt Otimizado Final](prompts/bug_to_user_story_v2.yml)
-- [Dashboard de Tracing no LangSmith](https://smith.langchain.com/o/4d7de0bc-2ac0-4588-bf0b-78c588a98ff1/projects/p/fd520d99-6af1-4802-b8e5-1ac74af40da0?timeModel=%7B%7D)
+- [Dashboard de Tracing no LangSmith](https://smith.langchain.com/o/4d7de0bc-2ac0-4588-bf0b-78c588a98ff1/projects/p/76502478-86a7-422d-b021-478f78a378cb)
 - [Prompt publicado no Hub](https://smith.langchain.com/hub/lucasgauterio/bug_to_user_story_v2)
 
 ---
@@ -229,6 +229,14 @@ Carrega os relatos de bug locais, envia para avaliação e calcula as 5 métrica
 
 #### Painel de Monitoramento Geral de Traces
 ![Dashboard Geral](screenshots/dashboard_traces.jpeg)
+
+</details>
+
+<details>
+<summary><b>📊 Dataset (Clique para abrir)</b></summary>
+
+#### Painel de Monitoramento Geral de Traces
+![Dataset](screenshots/dataset.jpeg)
 
 </details>
 

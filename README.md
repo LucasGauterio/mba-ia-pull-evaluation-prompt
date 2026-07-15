@@ -65,8 +65,8 @@ flowchart LR
 
 | Métrica | Prompt Ruim (v1) | Prompt Otimizado (v2) | Limiar Mínimo | Status Final |
 | :--- | :---: | :---: | :---: | :---: |
-| **Helpfulness** | 0.45 | **0.96** | 0.80 | ✅ APROVADO |
-| **Correctness** | 0.52 | **0.96** | 0.80 | ✅ APROVADO |
+| **Helpfulness** | 0.45 | **0.97** | 0.80 | ✅ APROVADO |
+| **Correctness** | 0.52 | **0.97** | 0.80 | ✅ APROVADO |
 | **F1-Score** | 0.48 | **0.95** | 0.80 | ✅ APROVADO |
 | **Clarity** | 0.50 | **0.94** | 0.80 | ✅ APROVADO |
 | **Precision** | 0.46 | **0.98** | 0.80 | ✅ APROVADO |
@@ -418,35 +418,6 @@ Carrega os relatos de bug locais, envia para avaliação e calcula as 5 métrica
 ---
 
 ## Evidências de Tracing e Avaliação (LangSmith)
-
-Abaixo estão listados e referenciados todos os 19 arquivos de capturas de tela contendo as evidências visuais de execução e avaliação do pipeline registradas no LangSmith, mapeados por bug e tipo de componente:
-
-### Lista Completa de Capturas de Tela
-| Arquivo | Bug Referente | Componente / Tipo de Trace |
-| :--- | :--- | :--- |
-| `bug_6_sequence.jpeg` | Bug #6: Webhook de pagamento não chamado | RunnableSequence Trace Geral |
-| `bug_6_prompt_template.jpeg` | Bug #6: Webhook de pagamento não chamado | ChatPromptTemplate |
-| `bug_6_result.jpeg` | Bug #6: Webhook de pagamento não chamado | Execução do LLM (Resultado) |
-| `bug_6_eval_clarity.jpeg` | Bug #6: Webhook de pagamento não chamado | Avaliador de Clareza (Clarity) |
-| `bug_6_eval_precision.jpeg` | Bug #6: Webhook de pagamento não chamado | Avaliador de Precisão (Precision) |
-| `bug_6_eval_f1.jpeg` | Bug #6: Webhook de pagamento não chamado | Avaliador de F1 Score |
-| `bug_11_sequence.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | RunnableSequence Trace Geral |
-| `bug_11_prompt_template.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | ChatPromptTemplate |
-| `bug_11_result.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | Execução do LLM (Resultado) |
-| `bug_11_eval_clarity.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | Avaliador de Clareza (Clarity) |
-| `bug_11_eval_precision.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | Avaliador de Precisão (Precision) |
-| `bug_11_eval_f1.jpeg` | Bug #11: Carrinho permite finalizar compra fora de estoque | Avaliador de F1 Score |
-| `bug_15_sequence.jpeg` | Bug #15: App offline-first com bugs de sincronização | RunnableSequence Trace Geral |
-| `bug_15_promp_template.jpeg` | Bug #15: App offline-first com bugs de sincronização | ChatPromptTemplate |
-| `bug_15_result.jpeg` | Bug #15: App offline-first com bugs de sincronização | Execução do LLM (Resultado) |
-| `bug_15_eval_clarity.jpeg` | Bug #15: App offline-first com bugs de sincronização | Avaliador de Clareza (Clarity) |
-| `bug_15_eval_precision.jpeg` | Bug #15: App offline-first com bugs de sincronização | Avaliador de Precisão (Precision) |
-| `bug_15_eval_f1.jpeg` | Bug #15: App offline-first com bugs de sincronização | Avaliador de F1 Score |
-| `dashboard_traces.jpeg` | Geral / Todos | Painel de Monitoramento (Dashboard) do LangSmith |
-
----
-
-### Visualização das Evidências (Agrupadas por Bug)
 
 <details>
 <summary><b>📊 Dashboard Geral do LangSmith (Clique para abrir)</b></summary>
